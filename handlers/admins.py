@@ -18,7 +18,7 @@ ACTV_CALLS = []
 @authorized_users_only
 async def pause(_, message: Message):
     await callsmusic.pytgcalls.pause_stream(message.chat.id)
-    await message.reply_text("▶️ 𝐏𝐚𝐮𝐬𝐞 😔🥀")
+    await message.reply_text("▶️ 𝐏𝐚𝐮𝐬𝐞 😒😔🥀")
 
 
 @Client.on_message(command(["resume"]) & other_filters)
