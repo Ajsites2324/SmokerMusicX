@@ -18,7 +18,7 @@ async def start_(client: Client, message: Message):
 𝐃𝐢𝐬𝐜𝐮𝐬𝐬 :- [✨ 𝐓𝐏𝐍 𝐅𝐄𝐃 🎧](https://t.me/professor_network_fed)
 𝐒𝐨𝐮𝐫𝐜𝐞  :- [✨  𝗖𝗹𝗶𝗰𝗸 ☑️ 𝗥𝗲𝗽𝗼 🌍](https://t.me/modern_elements)
 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 :- [✨𝗖𝗹𝗶𝗰𝗸 ☑️ 𝗡𝗼𝘄 🚩](https://telegra.ph/%F0%9D%90%80j%F0%9D%90%84%F0%9D%90%84%F0%9D%90%93-MUSIC-BOT-COMMANDS-05-03)
-𝐅𝐞𝐞𝐋𝐢𝐧𝐠'𝐒 :- [✨ 𝗝𝗼𝗶𝗻 ❤️🥀](https://t.me/about_ajeet)
+𝐀𝐛𝐨𝐮𝐭 :- [✨ 𝗝𝗼𝗶𝗻 ❤️🥀](https://t.me/about_ajeet)
 
 𝐈𝐟 𝐘𝐨𝐮 𝐇𝐚𝐯𝐞 𝐀𝐧𝐲 𝐐𝐮𝐞𝐬𝐭𝐢𝐨𝐧𝐬 𝐀𝐧𝐝 𝐇𝐞𝐥𝐩 𝐓𝐡𝐞𝐧 𝐃𝐦 𝐌𝐲 𝐁𝐨𝐬𝐬 = [─⃜͢͢𓆩〭⃛〬𓆩〭⃛〬➤⃝✖‿✖•Ajͥeeͣtͫ ❤️](https://t.me/papa_bol_sakteho)**""",
     reply_markup=InlineKeyboardMarkup(
