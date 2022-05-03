@@ -98,7 +98,7 @@ async def play(_, message: Message):
     global que
     global useer
 
-    lel = await message.reply("🔎 **𝐅𝐢𝐧𝐝𝐢𝐧𝐠 💫 𝐓𝐡𝐞 𝐒𝐨𝐧𝐠 ❤️ ❰ 𝐀𝐣𝐞𝐞𝐭 𝐒𝐞𝐫𝐯𝐞𝐫 🚬 ❱...**")
+    lel = await message.reply("🔎 **𝐅𝐢𝐧𝐝𝐢𝐧𝐠 💫 𝐓𝐡𝐞 𝐒𝐨𝐧𝐠 ❤️ ❰ 𝐀𝐣𝐞𝐞𝐭 𝐒𝐞𝐫𝐯𝐞𝐫 😈 ❱...**")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -153,7 +153,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/a67094fc4a99bca08114b.jpg"
+        thumb_name = "https://te.legra.ph/file/4b2ec4894a08b0dde7ae3.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -171,7 +171,7 @@ async def play(_, message: Message):
                             url=f"https://t.me/papa_bol_sakteho"),
                             
                     InlineKeyboardButton(
-                            text="𝐅𝐞𝐞𝐋𝐢𝐧𝐠'𝐒 🥀",
+                            text=" 𝐀Ⴆ𝙤𝐮𝐓🥀",
                             url=f"https://t.me/about_ajeet")
                ],
                [
@@ -224,7 +224,7 @@ async def play(_, message: Message):
                             url=f"https://t.me/papa_bol_sakteho"),
                             
                     InlineKeyboardButton(
-                            text="𝐅𝐞𝐞𝐋𝐢𝐧𝐠'𝐒 🥀",
+                            text="𝐀Ⴆ𝙤𝐮𝐓🥀",
                             url=f"https://t.me/about_ajeet")
                ],
                [
@@ -238,7 +238,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://telegra.ph/file/a67094fc4a99bca08114b.jpg"
+            thumb_name = "https://te.legra.ph/file/4b2ec4894a08b0dde7ae3.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
@@ -254,7 +254,7 @@ async def play(_, message: Message):
                             url=f"https://t.me/papa_bol_sakteho"),
                             
                     InlineKeyboardButton(
-                            text="𝐅𝐞𝐞𝐋𝐢𝐧𝐠'𝐒 🥀",
+                            text="💫𝐀Ⴆ𝙤𝐮𝐓🥀",
                             url=f"https://t.me/about_ajeet")
                ],
                [
@@ -277,7 +277,7 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             return await lel.edit(
-                "✌𝐖𝐡𝐚𝐭'𝐒 𝐓𝐡𝐞 ❤️ 𝐒𝐨𝐧𝐠 🎸 𝐘𝐨𝐮 🎧 𝐖𝐚𝐧𝐭 𝐓𝐨 𝐏𝐥𝐚𝐲 ▶ ❤️**"
+                "✌𝐖𝐡iƈ𝐡𓆩🖤𓆪 𝐒𝐨𝐧𝐠 🎸 𝐘𝐨𝐮 🎧 𝐖𝐚𝐧𝐭 𝐓𝐨 𝐏𝐥𝐚𝐲 ▶ ❤️**"
             )
         await lel.edit("🔎")
         query = message.text.split(None, 1)[1]
