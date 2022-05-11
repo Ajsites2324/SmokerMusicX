@@ -88,7 +88,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
 
 
 @Client.on_message(
-    command(["play"])
+    command(["play", "aj", "ajyuku", "ajeetplay", "yuku", "ajeet", "farsana", "ajeetpapa"])
     & filters.group
     & ~filters.edited
     & ~filters.forwarded
@@ -367,7 +367,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**❰ 𝘼ʝ𝙚𝙚𝐓 𝐌𝐮𝐬𝐢𝐜 ❘⁪⁬⁮ ╚»𝐓-𝐏-𝗡«╝ 😈 ❱ Now 😄 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 📀 𝐀𝐭 🤟 `{}`...**".format(
+            caption="**❰ ─⃜͢͢𓆩〭⃛〬𓆩〭⃛〬➤⃝✖‿✖•Ajͥeeͣtͫ ❘⁪⁬⁮ ╚»𝐓-𝐏-𝗡«╝ 😈 ❱ Now 😄 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 📀 𝐀𝐭 🤟 `{}`...**".format(
         message.chat.title
         ), )
 
