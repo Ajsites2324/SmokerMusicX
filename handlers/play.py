@@ -167,7 +167,7 @@ async def play(_, message: Message):
                ],
                [
                     InlineKeyboardButton(
-                            text="─⃜͢͢𓆩〭⃛〬𓆩〭⃛〬➤⃝✖‿✖•Ajͥeeͣtͫ",
+                            text="✖‿✖Ajͥeeͣtͫ",
                             url=f"https://t.me/papa_bol_sakteho"),
                             
                     InlineKeyboardButton(
