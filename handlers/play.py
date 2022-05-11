@@ -56,12 +56,12 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     async with aiohttp.ClientSession() as session:
         async with session.get(thumbnail) as resp:
             if resp.status == 200:
-                f = await aiofiles.open("background.png", mode="wb")
+                f = await aiofiles.open("20220511_173027.png", mode="wb")
                 await f.write(await resp.read())
                 await f.close()
 
 
-    image1 = Image.open("./background.png")
+    image1 = Image.open("./20220511_173027.png")
     image2 = Image.open("etc/foreground.png")
     image3 = changeImageSize(1280, 720, image1)
     image4 = changeImageSize(1280, 720, image2)
@@ -83,12 +83,12 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     )
     img.save("final.png")
     os.remove("temp.png")
-    os.remove("background.png")
+    os.remove("20220511_173027.png")
 
 
 
 @Client.on_message(
-    command(["play", "aj", "ajyuku", "ajeetplay", "yuku", "ajeet", "farsana", "ajeetpapa"])
+    command(["play", "aj", "ajyuku", "ajeetplay", "yuku", "ajeet", "farsana", "ajee", "aakash", "parkyuku"])
     & filters.group
     & ~filters.edited
     & ~filters.forwarded
